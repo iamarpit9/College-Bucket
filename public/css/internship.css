@@ -1,0 +1,227 @@
+.intern{
+    margin:15px 0px 35px 0px;
+    font-size: 36px;
+    font-weight: 100;
+    text-transform: capitalize;
+    display: block;
+    color: black;
+}
+
+.intern-desc{
+    display: block;
+    width:55%;
+    margin: auto;
+    font-size: 16px;
+    color:rgb(95, 95, 95);
+    font-weight: 400;
+}
+
+.intern-images{
+    margin:100px 0px 120px 0px;
+    height:350px;
+    background: url("../images/internImage.png") no-repeat;
+    background-size: cover;
+}
+
+.intern-featured{
+    margin-top:150px;
+    margin-bottom: 180px;
+}
+
+.featured-box{
+    width:88%;
+    margin:auto;
+    margin-top:80px;
+    border-radius: 14px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 10px 10px 30px grey;
+}
+
+.left-panel{
+    width:50%;
+    height:100%;
+    padding:30px 20px;
+}
+
+.left-panel-title{
+    font-size: 30px;
+    color:black;
+}
+
+.left-panel ul li{
+    margin-left:20px;
+    margin-top:30px;
+    color:black;
+    list-style-type: disc;
+}
+
+.left-panel button{
+    margin:20px;
+    background-color: #02b3e4;
+    border:0;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.right-panel{
+    width:50%;
+    background-image: url("../images/rightPanel.jpeg");
+    background-size: cover;
+    background-position-x: -100px;
+}
+
+.right-panel-contact{
+    width:50%;
+    background-image: url("../images/contact.jpeg");
+    background-size: cover;
+  
+}
+
+.popup-form {
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 100000000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.popup-form-cls {
+    position: fixed;
+    top:10px;
+    right:10px;
+    transform: rotate(45deg);
+    color:white;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.google-form{
+    margin-top:60px;
+    width:90%;
+    height: 80vh;
+}
+
+.intern-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:40px;
+    margin-bottom: 50px;
+}
+
+.intern-card{
+    width:20%;
+    background-color: white;
+    margin-right:20px;
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px;
+    box-shadow: 2px 2px 10px grey;
+    overflow: hidden;
+}
+
+.intern-card-image{
+    width:100%;
+    background-color:grey;
+    height: 200px;
+}
+
+.intern-card:nth-child(1) .intern-card-image{
+    background: url("../images/intern-1.jpeg");
+    background-size: cover;
+    background-position-y: -30px;
+}
+.intern-card:nth-child(2) .intern-card-image{
+    background: url("../images/intern-2.jpeg");
+    background-size: cover;
+}
+.intern-card:nth-child(3) .intern-card-image{
+    background: url("../images/intern-3.jpeg");
+    background-size: cover;
+    background-position-x: -3px;
+}
+
+.intern-card-data{
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding-left:8%;
+    padding-right:8%;
+    min-height: 170px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+
+.intern-card-data p {
+    font-size: 13px;
+}
+
+.rewards-text{
+    font-size: 18px;
+}
+
+@media screen and (max-width:1100px){
+    .intern-card{
+        width:400px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .featured-box{
+        flex-direction: column-reverse;
+    }
+    .right-panel{
+        width:100%;
+        height:300px;
+    }
+    .left-panel{
+        width:100%;
+    }
+    .left-panel ul li {
+        margin-top:20px;
+    }
+    .intern-desc{
+        width:80%;
+    }
+    .floating-btn{
+        right:20px;
+    }
+    .rewards-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .intern{
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .featured-box{
+        box-shadow: 5px 5px 10px grey;
+    }
+    .intern-card{
+        width:80%;
+        margin-bottom: 40px;
+    }
+    .intern-images{
+        height: 200px;
+        width: 60%;
+    }
+    .floating-btn{
+        display: none;
+    }
+    
+}

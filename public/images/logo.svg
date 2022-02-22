@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1412" height="335" viewBox="0 0 1412 335">
+  <defs>
+    <clipPath id="clip-logo">
+      <rect width="1412" height="335"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <rect width="1412" height="335" fill="rgba(255,255,255,0)"/>
+    <text id="College_Bucket" data-name="College Bucket" transform="translate(130 256)" fill="#26abe1" font-size="173" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="0" y="0" fill="#171364">College</tspan><tspan y="0" fill="#000"> </tspan><tspan y="0" fill="#26abe1">Bucket</tspan></text>
+    <g id="graduation-hat-svgrepo-com" transform="translate(18.453 78.206) rotate(-17)">
+      <g id="c9_hat" transform="translate(0 0)">
+        <path id="Path_77" data-name="Path 77" d="M242.772,110.552v-25.6l24.717-13.638L133.751,0,0,71.323l53.32,30.918v19.64c.144-.075.326-.144.483-.219a4.06,4.06,0,0,0-.94,2.347c0,8.937,36.194,16.222,80.888,16.222,44.669,0,80.9-7.285,80.9-16.222a4.19,4.19,0,0,0-.94-2.347c.157.094.339.144.476.219v-19.69L237.45,87.9v22.65a7.011,7.011,0,1,0,5.322,0ZM133.751,140.231c-39.661,0-71.793-10.671-71.793-16.216s32.132-10.051,71.793-10.051c39.642,0,71.787,4.506,71.787,10.051S173.392,140.231,133.751,140.231Zm78.688-52.91c-5.328-5.689-24.5-20.622-78.688-20.622-54.222,0-73.36,14.946-78.682,20.641V81.932s15.521-23.263,78.682-23.263,78.688,23.263,78.688,23.263Z" transform="translate(0 0)" fill="#26abe1"/>
+        <path id="Path_78" data-name="Path 78" d="M.174,0,0,2.356c.506-.785.924-.489.924-.489V0C.384.21.174,0,.174,0Z" transform="translate(265.352 139.351)"/>
+      </g>
+    </g>
+  </g>
+</svg>
